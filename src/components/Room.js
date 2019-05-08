@@ -24,4 +24,13 @@ const Room = ({ room }) => {
   );
 };
 
+Room.propType = {
+  room: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired,
+    images: PropTypes.arrayOf.isRequired,
+    price: PropTypes.number.isRequired
+  })
+};
+
 export default Room;
