@@ -1,0 +1,29 @@
+// this file containe the code context api with RoomConsumer and In RoomContainer we use high order function 
+// Chech the file RoomContainer.js and context.js to understand high order comsumer function to use context api
+// import React from 'react';
+// import RoomFilter from './RoomFilter';
+// import RoomList from './RoomList';
+// import { RoomConsumer } from '../context';
+// import Loading from './Loading';
+
+// const RoomContainer = () => {
+//   return (
+//     <RoomConsumer>
+//       {value => {
+//         const { loading, sortedRoom, rooms } = value;
+//         if (loading) {
+//           return <Loading />;
+//         }
+//         return (
+//           <div>
+//             hello From Room Container
+//             <RoomFilter rooms={rooms} />
+//             <RoomList rooms={sortedRoom} />
+//           </div>
+//         );
+//       }}
+//     </RoomConsumer>
+//   );
+// };
+
+// export default RoomContainer;
